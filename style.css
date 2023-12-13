@@ -1,0 +1,146 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.container{
+    display:flex;
+    background-color:white;
+    position:relative;
+    flex-direction:column;
+    margin:10px;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    
+}
+.one{
+    color:white;
+    background-color:#544bab;
+    height:300px;
+    width:300px;
+    margin:10px;
+  
+}
+.two{
+background-color:#eaecf9;
+height:300px;
+width:300px;
+margin:10px;
+}
+.three{
+    color:white;
+    background-color:#544bab;
+    height:300px;
+    width:300px;
+    margin:10px;
+}
+.four{
+    background-color:#eaecf9;
+    height:300px;
+    width:300px;
+    margin:10px;
+}
+.five{
+    color:white;
+    background-color:#544bab;
+    height:300px;
+    width:300px;
+    margin:10px;
+}
+.six{
+    background-color:#eaecf9;
+    height:300px;
+    width:300px;
+    margin:10px;
+}
+.seven{
+    height: 100px;
+    width:940px;
+    background-color:#37335d;
+    color:white;
+    margin:10px;
+    text-align:center;
+    Padding-top:35px;
+    font-size:20px;
+}
+.seven p{
+  font-size:20px;
+  font-weight:900;
+}
+.top-flex{
+    display:flex;
+    position:relative;
+    
+}
+.bottom-flex{
+    display:flex;
+}
+p,h1,p,i{
+    margin:20px 40px;
+    font-weight:bold;
+}
+h1{
+    font-weight:1000;
+}
+span{
+    display:flex;
+    justify-content:space-between;
+    
+}
+i{
+    position:relative;
+    top:13px;
+    font-weight:500;
+}
+.one:hover{
+    transform:rotate(360deg);
+    transition:1s;
+    opacity:0.8;
+    border-radius:60px;
+}
+.two:hover{
+    background-color:slategrey;
+    color:white;
+    border-radius:60px;
+    transform:rotate(36deg);
+    transition:1s;
+    opacity:0.8;
+}
+.three:hover{
+    transform:rotate(360deg);
+    transition:1s;
+    opacity:0.8;
+    border-radius:60px;
+}
+.four:hover{
+    background-color:slategrey;
+    color:white;
+    border-radius:60px;
+    transform:rotate(36deg);
+    transition:1s;
+    opacity:0.8;
+}
+.five:hover{
+    transform:rotate(360deg);
+    transition:1s;
+    opacity:0.8;
+    border-radius:60px;
+}
+.six:hover{
+    background-color:slategrey;
+    color:white;
+    border-radius:60px;
+    transform:rotate(36deg);
+    transition:1s;
+    opacity:0.8;
+    
+    
+}
+.seven:hover{
+    transform:skew(10deg);
+    transition:1s;
+    opacity:0.8;
+    border-radius:100px;
+}
